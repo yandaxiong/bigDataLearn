@@ -33,8 +33,8 @@ public class HdfsByApi {
     @Test
     public void  putFileToHDFS() throws Exception {
         FileSystem fs = initHDFS();
-        Path local =  new Path("D:\\nouse\\xiong.txt");
-        Path  ser  = new Path("/user/xiong/xiong.txt");
+        Path local =  new Path("D:\\nouse\\hadoopTestInput\\hello.txt ");
+        Path  ser  = new Path("/user/xiong/hadoopInput/hello.txt");
         fs.copyFromLocalFile(local,ser);
         fs.close();
     }
