@@ -49,6 +49,9 @@ public class WordCountDriver {
         job.setPartitionerClass(WordCountPartitioner.class);
         job.setNumReduceTasks(2);
 
+        // 9 关联Combiner
+        job.setCombinerClass(WordCountCombiner.class);
+
 
         // 7 将job中配置的相关参数，以及job所用的java类所在的jar包， 提交给yarn去运行
 //		job.submit();
