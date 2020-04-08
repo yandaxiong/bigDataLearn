@@ -11,6 +11,9 @@
     <modules>
         <module>hadoopLearn</module>
         <module>zookeeperLearn</module>
+        <module>hbasoLearn</module>
+        <module>kafkaLearn</module>
+        <module>stormLearn</module>
     </modules>
 
     <dependencies>
