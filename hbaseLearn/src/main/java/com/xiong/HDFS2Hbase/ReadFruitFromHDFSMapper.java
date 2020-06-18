@@ -31,4 +31,9 @@ public class ReadFruitFromHDFSMapper extends Mapper<LongWritable, Text, Immutabl
         context.write(immutableBytesWritable,put);
     }
 
+    public static void main(String[] args) {
+        double i = 1.0d;
+        System.out.println((int)(i));
+    }
+
 }

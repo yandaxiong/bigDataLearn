@@ -11,9 +11,10 @@
     <modules>
         <module>hadoopLearn</module>
         <module>zookeeperLearn</module>
-        <module>hbasoLearn</module>
+        <module>hbaseLearn</module>
         <module>kafkaLearn</module>
         <module>stormLearn</module>
+        <module>transformerProject</module>
     </modules>
 
     <dependencies>
